@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/SaiVenkat07/quabe-purse.git
-   cd quabe-dashboard
+   cd quabe-purse
    ```
 
 2. **Install the dependencies:**
