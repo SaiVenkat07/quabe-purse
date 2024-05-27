@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Quabe Purse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quabe Dashboard is a responsive web application that provides users with a detailed overview of their expenses, savings, activities, and pending bills. It features a flexible navigation bar, a dashboard displaying key metrics, and a line chart representing monthly expenses.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Components](#components)
+- [Technologies](#technologies)
+- [License](#license)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SaiVenkat07/quabe-purse.git
+   cd quabe-dashboard
+   ```
 
-### `npm test`
+2. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After starting the development server, open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+quabe-dashboard/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Chart.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── index.jsx
+├── package.json
+├── README.md
+```
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Navbar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The `Navbar` component contains the navigation links and a collapsible sidebar that adjusts based on screen size and user interaction.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The `Dashboard` component is the main content area, displaying key user metrics such as expenses, savings, and a graph of monthly expenses.
 
-## Learn More
+### Chart
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `Chart` component uses `react-chartjs-2` to render a line chart depicting the user's monthly expenses.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies
 
-### Code Splitting
+- **React**: JavaScript library for building user interfaces.
+- **Chart.js & react-chartjs-2**: Libraries for creating beautiful charts.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Framer Motion**: Library for animations and transitions.
+- **Lucide-react**: Icon library for React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
