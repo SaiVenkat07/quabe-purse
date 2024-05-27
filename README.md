@@ -1,5 +1,5 @@
 # Quabe Purse
-
+![Screenshot 2024-05-27 215744](https://github.com/SaiVenkat07/quabe-purse/assets/125186243/4d30f116-746c-4bdc-abc2-d9af6a94a9d8)
 Quabe Dashboard is a responsive web application that provides users with a detailed overview of their expenses, savings, activities, and pending bills. It features a flexible navigation bar, a dashboard displaying key metrics, and a line chart representing monthly expenses.
 
 ## Table of Contents
