@@ -38,7 +38,7 @@ After starting the development server, open your browser and navigate to `http:/
 ## Project Structure
 
 ```
-quabe-dashboard/
+quabe-purse/
 ├── public/
 ├── src/
 │   ├── assets/
@@ -78,4 +78,3 @@ The `Chart` component uses `react-chartjs-2` to render a line chart depicting th
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
